@@ -20,6 +20,11 @@ de nuestro GIT.
  Crear cuenta de GitHub: https://github.com/
  Creamos un repositorio en github.
  Usaremos en gitbash 
+ configuracion global
+ core.editor=code --wait
+core.autocrlf=input
+core.safecrlf=true
+init.defaultbranch=master
  como subir a git hub un repositorio
  *git config user.name "nombre de usuario de github" (para configurar el usuario)
  *git config user.email "email del usuario"(para configurar el email)
