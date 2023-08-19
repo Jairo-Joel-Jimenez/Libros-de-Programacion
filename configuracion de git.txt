@@ -1,0 +1,30 @@
+------------Comandos para configurar git:--------------
+git config --global user.name "Nombre de usuario"
+git config --global user.email (correoelectronico)
+git config --global user.password (token generado en github)
+git config --global core.editor "code --wait"
+git config --global -e (deberia salir el editor en mi caso el vscode hasta cerrarlo)
+git config --global core.autocrlf true (si es linux o mac colocamos o input) para que se interprete bien los saltos de lineas
+git config --global init.defaultbranch (master o main)cambia el nombre de la rama principal para todos los git init
+-------------TERMINADA LA CONFIGURACION LOCAL------------
+-------------Pasos para crear un repositorio online-------
+git init
+crear el repositorio en github
+git remote add origin <url del repositorio de github>
+-------------Fin de pasos para crear repositorio-------------
+
+-------------Pasos para bajar un repositorio-----------------
+git init (para iniciar git en una carpeta)
+git clone <link del repositorio remoto> para copiar un repositorio online
+git pull <baja todos los cambios que se hicieron en github antes de comitear algo>
+git fetch --all <para ver todas las ramas y commits que se agregaron>
+git branch -a <sirve para ver las ramas que hay en todo el repositorio>
+git checkout <nombre de la rama>sirve para pasarse de una rama a la otra
+git branch <nombre de la rama nueva> para crear ramas.
+git push -u origin <rama> sirve para subir el commit a github desde la rama indicada.
+***En caso de pedir usuario y contraseña cada vez que usamos push ver el siguiente link***
+***https://geekflare.com/es/github-setup-passwordless-auth/***
+--------------Fin de pasos para bajar un repositorio-------------------------
+--------------Comandos utiles----------------
+Algunos de los comandos mas basicos los dejo en el siguiente link
+https://www.freecodecamp.org/espanol/news/10-comandos-de-git-que-todo-desarrollador-deberia-saber/
