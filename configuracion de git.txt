@@ -6,6 +6,12 @@ git config --global core.editor "code --wait"
 git config --global -e (deberia salir el editor en mi caso el vscode hasta cerrarlo)
 git config --global core.autocrlf true (si es linux o mac colocamos o input) para que se interprete bien los saltos de lineas
 git config --global init.defaultbranch (master o main)cambia el nombre de la rama principal para todos los git init
+git config --list sirve para ver la configuracion que acabamos de hacer
+-------------Configuracion de credenciales---------------
+Link directo a los pasos para configurar una key ssh
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+Link tutorial de youtube para ayudar a la configuracion
+https://www.youtube.com/watch?v=tY6IKEYz5vU
 -------------TERMINADA LA CONFIGURACION LOCAL------------
 -------------Pasos para crear un repositorio online-------
 git init
